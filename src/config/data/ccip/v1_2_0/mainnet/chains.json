@@ -48,5 +48,15 @@
     "chainSelector": "1346049177634351622",
     "router": "0xfB48f15480926A4ADf9116Dca468bDd2EE6C5F62",
     "feeTokens": ["LINK", "WCELO"]
+  },
+  "xdai-mainnet": {
+    "chainSelector": "465200170687744372",
+    "router": "0x4aAD6071085df840abD9Baf1697d5D5992bDadce",
+    "feeTokens": ["LINK", "WXDAI"]
+  },
+  "ethereum-mainnet-mode-1": {
+    "chainSelector": "7264351850409363825",
+    "router": "0x24C40f13E77De2aFf37c280BA06c333531589bf1",
+    "feeTokens": ["LINK", "WETH"]
   }
 }

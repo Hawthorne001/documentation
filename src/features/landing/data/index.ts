@@ -38,6 +38,8 @@ export const evmProducts = [
       { id: "wemix", title: "Wemix" },
       { id: "kroma", title: "Kroma" },
       { id: "celo", title: "Celo" },
+      { id: "gnosis-chain", title: "Gnosis Chain" },
+      { id: "mode", title: "Mode" },
     ],
   },
   {
@@ -60,7 +62,7 @@ export const evmProducts = [
       { id: "scroll", title: "Scroll" },
       { id: "linea", title: "Linea" },
       { id: "zksync", title: "zkSync" },
-      { id: "starknet", title: "StarkNet" },
+      // { id: "starknet", title: "StarkNet" },
       { id: "solana", title: "Solana" },
     ],
     video: "https://www.youtube.com/watch?v=e75kwGzvtnI&list=PLVP9aGDn-X0QwJVbQvuKr-zrh2_DV5M6J&index=45",
@@ -78,7 +80,10 @@ export const evmProducts = [
       ["Available Schemas", "data-streams/reference/report-schema"],
       ["Interface Reference", "data-streams/reference/interfaces"],
     ],
-    chains: [{ id: "arbitrum", title: "Arbitrum" }],
+    chains: [
+      { id: "arbitrum", title: "Arbitrum" },
+      { id: "avalanche", title: "Avalanche" },
+    ],
   },
   {
     title: "Functions",
@@ -106,6 +111,7 @@ export const evmProducts = [
       { id: "arbitrum", title: "Arbitrum" },
       { id: "optimism", title: "Optimism" },
       { id: "base", title: "BASE" },
+      { id: "gnosis-chain", title: "Gnosis Chain" },
     ],
     video: "https://www.youtube.com/watch?v=dj0impNJdls&list=PLVP9aGDn-X0RloqS1uYcuaPSW3GIgoCkg&index=2",
   },

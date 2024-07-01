@@ -263,6 +263,21 @@
     "parent": { "type": "L2", "chain": "eip155-1", "bridges": [{ "url": "https://bridge.zksync.io/" }] }
   },
   {
+    "name": "Mode Testnet",
+    "chain": "ETH",
+    "rpc": ["https://sepolia.mode.network"],
+    "faucets": ["https://sepoliafaucet.com/"],
+    "nativeCurrency": { "name": "Sepolia Ether", "symbol": "ETH", "decimals": 18 },
+    "infoURL": "https://docs.mode.network/",
+    "shortName": "modesep",
+    "chainId": 919,
+    "networkId": 919,
+    "slip44": 1,
+    "icon": "modeTestnet",
+    "explorers": [{ "name": "modescout", "url": "https://sepolia.explorer.mode.network", "standard": "none" }],
+    "parent": { "type": "L2", "chain": "eip155-11155111", "bridges": [{ "url": "https://bridge.mode.network/" }] }
+  },
+  {
     "name": "Metis Andromeda Mainnet",
     "chain": "ETH",
     "rpc": ["https://andromeda.metis.io/?owner=1088", "https://metis.drpc.org", "wss://metis.drpc.org"],
@@ -490,6 +505,19 @@
         "standard": "EIP3091"
       }
     ]
+  },
+  {
+    "name": "Mode",
+    "chain": "ETH",
+    "rpc": ["https://mainnet.mode.network", "https://mode.drpc.org", "wss://mode.drpc.org"],
+    "faucets": [],
+    "nativeCurrency": { "name": "Ether", "symbol": "ETH", "decimals": 18 },
+    "infoURL": "https://docs.mode.network/",
+    "shortName": "mode",
+    "chainId": 34443,
+    "networkId": 34443,
+    "icon": "mode",
+    "explorers": [{ "name": "modescout", "url": "https://explorer.mode.network", "standard": "none" }]
   },
   {
     "name": "Arbitrum One",
