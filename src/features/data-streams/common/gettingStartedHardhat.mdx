@@ -5,13 +5,16 @@ This guide shows you how to read data from a Data Streams feed, verify the answe
 
 This example uses the _[Streams Trade](/data-streams#streams-trade-using-data-streams-with-chainlink-automation) implementation_, with a [Chainlink Automation Log Trigger](/chainlink-automation/guides/log-trigger) to check for events that require data. For this example, the log trigger comes from a simple emitter contract. Chainlink Automation then uses `StreamsLookup` to retrieve a signed report from the Data Streams Aggregation Network, return the data in a callback, and run the [`performUpkeep` function](/chainlink-automation/reference/automation-interfaces#performupkeep-function-for-log-triggers) on your registered upkeep contract. The `performUpkeep` function calls the `verify` function on the verifier contract.
 
-Note: To learn how to use the _[Streams Direct](/data-streams#streams-direct-using-data-streams-with-your-own-bot) implementation_ of Data Streams, see the [Fetch and decode reports via a REST API](/data-streams/tutorials/streams-direct-api) guide or the [Stream and decode reports via WebSocket](/data-streams/tutorials/streams-direct-ws) guide.
+Note: To learn how to use the _[Streams Direct](/data-streams#streams-direct-using-data-streams-with-your-own-bot) implementation_ of Data Streams, see the [Fetch and decode reports via a REST API](/data-streams/tutorials/streams-direct/streams-direct-api) guide or the [Stream and decode reports via WebSocket](/data-streams/tutorials/streams-direct/streams-direct-ws) guide.
 
 <DataStreams section="asideDisclaimer" />
 
 ## Before you begin
 
-This guide uses the [Hardhat](https://hardhat.org/) development environment to deploy and interact with the contracts. To learn more about Hardhat, read the [Hardhat Documentation](https://hardhat.org/hardhat-runner/docs/getting-started).
+- Chainlink Data Streams is available in Early Access. [Contact
+  us](https://chainlinkcommunity.typeform.com/datastreams?typeform-source=docs.chain.link#ref_id=docs) to request
+  mainnet or testnet early access.
+- This guide uses the [Hardhat](https://hardhat.org/) development environment to deploy and interact with the contracts. To learn more about Hardhat, read the [Hardhat Documentation](https://hardhat.org/hardhat-runner/docs/getting-started).
 
 ### Requirements
 
@@ -21,7 +24,7 @@ This guide uses the [Hardhat](https://hardhat.org/) development environment to d
    $ node -v
    v20.11.0
   ```
-- **Testnet funds**: This guide requires testnet ETH and LINK on Arbitrum Sepolia. Both are available at [faucets.chain.link](https://faucets.chain.link/arbitrum-sepolia).
+- **Testnet funds**: This guide requires testnet ETH and LINK on Arbitrum Sepolia. Both are available at [faucets.chain.link/arbitrum-sepolia](https://faucets.chain.link/arbitrum-sepolia).
 
 ## Tutorial
 
