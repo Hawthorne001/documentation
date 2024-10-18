@@ -11,12 +11,15 @@ export type SupportedTechnology =
   | "MOONBEAM"
   | "METIS"
   | "BASE"
+  | "BLAST"
   | "CELO"
   | "POLYGON_ZKEVM"
   | "LINEA"
   | "SCROLL"
   | "WEMIX"
   | "KROMA"
+  | "MODE"
+  | "ZKSYNC"
 
 export type SupportedChain =
   | "ETHEREUM_MAINNET"
@@ -38,13 +41,17 @@ export type SupportedChain =
   | "MOONRIVER_MAINNET"
   | "MOONBEAM_MAINNET"
   | "METIS_MAINNET"
+  | "METIS_SEPOLIA"
   | "BASE_MAINNET"
   | "BASE_SEPOLIA"
+  | "BLAST_MAINNET"
+  | "BLAST_SEPOLIA"
   | "CELO_MAINNET"
   | "CELO_ALFAJORES"
   | "SCROLL_MAINNET"
   | "SCROLL_SEPOLIA"
   | "LINEA_MAINNET"
+  | "LINEA_SEPOLIA"
   | "ZKSYNC_MAINNET"
   | "ZKSYNC_SEPOLIA"
   | "POLYGON_ZKEVM_MAINNET"
@@ -53,6 +60,8 @@ export type SupportedChain =
   | "WEMIX_TESTNET"
   | "KROMA_MAINNET"
   | "KROMA_SEPOLIA"
+  | "MODE_MAINNET"
+  | "MODE_SEPOLIA"
 
 export type Chains = Record<
   SupportedTechnology,
