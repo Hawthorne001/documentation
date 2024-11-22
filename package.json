@@ -29,7 +29,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@11ty/eleventy-fetch": "^4.0.1",
+    "@11ty/eleventy-fetch": "^5.0.0",
     "@astro-community/astro-embed-youtube": "^0.4.5",
     "@astrojs/mdx": "^2.3.1",
     "@astrojs/partytown": "^2.1.0",
