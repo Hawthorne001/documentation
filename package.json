@@ -69,7 +69,7 @@
     "@chainlink/contracts-1.4.0": "npm:@chainlink/contracts@1.4.0",
     "@chainlink/contracts-ccip": "1.6.1",
     "@chainlink/design-system": "^0.2.8",
-    "@chainlink/local": "0.2.7-beta",
+    "@chainlink/local": "0.2.7",
     "@chainlink/solana-sdk": "^0.2.2",
     "@metamask/providers": "^22.1.1",
     "@nanostores/persistent": "^1.1.0",
