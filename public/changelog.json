@@ -359,6 +359,33 @@
   },
   "data": [
     {
+      "category": "integration",
+      "date": "2025-11-25",
+      "description": "Newly supported tokens: BOB, WHLP, wstETH",
+      "relatedTokens": [
+        {
+          "assetName": "BOB",
+          "baseAsset": "BOB",
+          "url": "https://docs.chain.link/ccip/directory/mainnet/token/BOB",
+          "iconUrl": "https://d2f70xi62kby8n.cloudfront.net/tokens/bob.webp?auto=compress%2Cformat&q=60&w=40&h=40&fit=cover"
+        },
+        {
+          "assetName": "Wrapped HLP",
+          "baseAsset": "WHLP",
+          "url": "https://docs.chain.link/ccip/directory/mainnet/token/WHLP",
+          "iconUrl": "https://d2f70xi62kby8n.cloudfront.net/tokens/whlp.webp?auto=compress%2Cformat&q=60&w=40&h=40&fit=cover"
+        },
+        {
+          "assetName": "Wrapped stETH",
+          "baseAsset": "wstETH",
+          "url": "https://docs.chain.link/ccip/directory/mainnet/token/wstETH",
+          "iconUrl": "https://d2f70xi62kby8n.cloudfront.net/tokens/wsteth.webp?auto=compress%2Cformat&q=60&w=40&h=40&fit=cover"
+        }
+      ],
+      "title": "Cross-chain token (CCT) standard: Added support for new tokens",
+      "topic": "CCIP"
+    },
+    {
       "category": "release",
       "date": "2026-01-07",
       "description": "We've introduced a new [Very High Market Risk](https://docs.chain.link/data-feeds/selecting-data-feeds#-very-high-market-risk-feeds) category across Chainlink documentation pages and data.chain.link to better distinguish data feeds that are subject to extreme market risk beyond the existing High Market Risk classification. These feeds may reflect assets undergoing significant market events, severe liquidity constraints, or deprecation.\n\nTo improve transparency and consistency, feeds are no longer hidden based on risk level. All feeds are now visible and clearly labeled, allowing developers to make [informed decisions](https://docs.chain.link/data-feeds/selecting-data-feeds#overview) using more granular risk classifications.",
